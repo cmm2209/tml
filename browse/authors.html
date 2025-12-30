@@ -1,0 +1,1499 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>Browse by Author</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <link rel='stylesheet' type='text/css' href='_assets/css/tml/indexes.css' />
+    <script type= 'text/javascript' src='_assets/js/tml/author_select.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="../index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="authors.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="../copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="../quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+
+  <div id="container" class="full-width">
+    <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="../about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="../about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="../about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="../about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="../about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="../about/people.html">People</a></li>
+                <li class="pushy-link"><a href="../about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="authors.html">by author</a></li>
+            <li class="pushy-link"><a href="contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="sources.html">by source</a></li>
+            <li class="pushy-link"><a href="titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="../3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="../6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="../9th-11th/index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="../12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="../13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="../14th/index.html">14th</a></li>
+                     <li class="pushy-link"><a href="../15th/index.html">15th</a></li>
+                     <li class="pushy-link"><a href="../16th/index.html">16th</a></li>
+                     <li class="pushy-link"><a href="../17th/index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="../quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="../concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="../concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="../concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+  <div id="content">
+      <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+
+<h2>Browse by Author<span class="new"></span></h2>
+
+<p>This is a list of named and anonymous authors represented in the TML linked to the corresponding texts. This provisional version reflects the attributions <em>as they are found</em> in the sampled sources. A future version will enforce standardized authorities, and will update attributions as discussed in recent scholarship.</p>
+<p>It is possible to add to the list the standardized authorities of the <a class="external" href="http://www.lml.badw-muenchen.de/" target="_blank"><em>Lexicon musicum Latinum medii aevii</em> (LmL)</a> to retrieve the texts accounted for in that resource.&nbsp;<a class="modal-tooltip" modal="new-tip"><i class="fa fa-info-circle" aria-hidden="true">
+  <span class="sr-only">Click for more information</span>
+</i></a></p>
+<p><span class="guidelines">Select authors below and &ldquo;Submit&rdquo; them in the &ldquo;Actions&rdquo; panel. You can select multiple authors.</span></p>
+
+<form id='authForm' action='https://chmtl.indiana.edu/tml/browse/author_display' method='post'>
+    <table>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Abbot Guido" id="auth0" /></td>
+        <td><label for="auth0">Abbot Guido</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Adalboldus Ultraiectensis (?)(c.970-1026)" id="auth1" /></td>
+        <td><label for="auth1">Adalboldus Ultraiectensis (?)(c.970-1026)</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Adam Fuldensis (c.1445-1505)" id="auth2" /></td>
+        <td><label for="auth2">Adam Fuldensis (c.1445-1505)</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Adamus de Fulda" id="auth3" /></td>
+        <td><label for="auth3">Adamus de Fulda</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Adelboldus" id="auth4" /></td>
+        <td><label for="auth4">Adelboldus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Adrian Petit Coclico" id="auth5" /></td>
+        <td><label for="auth5">Adrian Petit Coclico</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Aegidius de Murino" id="auth6" /></td>
+        <td><label for="auth6">Aegidius de Murino</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Al-Farabi" id="auth7" /></td>
+        <td><label for="auth7">Al-Farabi</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Alexander de Villa Dei" id="auth8" /></td>
+        <td><label for="auth8">Alexander de Villa Dei</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ambrosius Macrobius Theodosius" id="auth9" /></td>
+        <td><label for="auth9">Ambrosius Macrobius Theodosius</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Amerus" id="auth10" /></td>
+        <td><label for="auth10">Amerus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Andreas Ornithoparchus" id="auth11" /></td>
+        <td><label for="auth11">Andreas Ornithoparchus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anicius Manlius Severinus Boethius" id="auth12" /></td>
+        <td><label for="auth12">Anicius Manlius Severinus Boethius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous" id="auth13" /></td>
+        <td><label for="auth13">Anonymous</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous 1" id="auth14" /></td>
+        <td><label for="auth14">Anonymous 1</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous 2" id="auth15" /></td>
+        <td><label for="auth15">Anonymous 2</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous 3" id="auth16" /></td>
+        <td><label for="auth16">Anonymous 3</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous 4" id="auth17" /></td>
+        <td><label for="auth17">Anonymous 4</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous 5" id="auth18" /></td>
+        <td><label for="auth18">Anonymous 5</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous 6" id="auth19" /></td>
+        <td><label for="auth19">Anonymous 6</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous 7" id="auth20" /></td>
+        <td><label for="auth20">Anonymous 7</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous cod. Barcinonensis (Barcelona)" id="auth21" /></td>
+        <td><label for="auth21">Anonymous cod. Barcinonensis (Barcelona)</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous I" id="auth22" /></td>
+        <td><label for="auth22">Anonymous I</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous II" id="auth23" /></td>
+        <td><label for="auth23">Anonymous II</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous III" id="auth24" /></td>
+        <td><label for="auth24">Anonymous III</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous IV" id="auth25" /></td>
+        <td><label for="auth25">Anonymous IV</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous OP" id="auth26" /></td>
+        <td><label for="auth26">Anonymous OP</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous V" id="auth27" /></td>
+        <td><label for="auth27">Anonymous V</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous VI" id="auth28" /></td>
+        <td><label for="auth28">Anonymous VI</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous VII" id="auth29" /></td>
+        <td><label for="auth29">Anonymous VII</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous VIII" id="auth30" /></td>
+        <td><label for="auth30">Anonymous VIII</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous X" id="auth31" /></td>
+        <td><label for="auth31">Anonymous X</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous XI" id="auth32" /></td>
+        <td><label for="auth32">Anonymous XI</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymous XII" id="auth33" /></td>
+        <td><label for="auth33">Anonymous XII</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymus" id="auth34" /></td>
+        <td><label for="auth34">Anonymus</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Anonymus Ratisbonensis" id="auth35" /></td>
+        <td><label for="auth35">Anonymus Ratisbonensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Antonius de Luca" id="auth36" /></td>
+        <td><label for="auth36">Antonius de Luca</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Antonius de Lucca" id="auth37" /></td>
+        <td><label for="auth37">Antonius de Lucca</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Aribo" id="auth38" /></td>
+        <td><label for="auth38">Aribo</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Aristotle" id="auth39" /></td>
+        <td><label for="auth39">Aristotle</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Arnulphus de s. Gilleno" id="auth40" /></td>
+        <td><label for="auth40">Arnulphus de s. Gilleno</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Arnulphus de Sancto Gilleno" id="auth41" /></td>
+        <td><label for="auth41">Arnulphus de Sancto Gilleno</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Aurelianus Reomensis" id="auth42" /></td>
+        <td><label for="auth42">Aurelianus Reomensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Aurelius Augustinus" id="auth43" /></td>
+        <td><label for="auth43">Aurelius Augustinus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Aurelius Cassiodorus" id="auth44" /></td>
+        <td><label for="auth44">Aurelius Cassiodorus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Bartholomeus Ramus de Pareia" id="auth45" /></td>
+        <td><label for="auth45">Bartholomeus Ramus de Pareia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Bartolomaeus Ramus de Pareia" id="auth46" /></td>
+        <td><label for="auth46">Bartolomaeus Ramus de Pareia</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Bartolomé de Quevedo" id="auth47" /></td>
+        <td><label for="auth47">Bartolomé de Quevedo</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Beda [Ps.]" id="auth48" /></td>
+        <td><label for="auth48">Beda [Ps.]</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Bede [Ps.]" id="auth49" /></td>
+        <td><label for="auth49">Bede [Ps.]</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Bernardus abbatis Clareuallis" id="auth50" /></td>
+        <td><label for="auth50">Bernardus abbatis Clareuallis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Bernelinus" id="auth51" /></td>
+        <td><label for="auth51">Bernelinus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Berno Augiensis" id="auth52" /></td>
+        <td><label for="auth52">Berno Augiensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Bertrandus Prudentius" id="auth53" /></td>
+        <td><label for="auth53">Bertrandus Prudentius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Biagio Rossetti" id="auth54" /></td>
+        <td><label for="auth54">Biagio Rossetti</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Bonaventura da Brescia" id="auth55" /></td>
+        <td><label for="auth55">Bonaventura da Brescia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Bonaventura de Brixia" id="auth56" /></td>
+        <td><label for="auth56">Bonaventura de Brixia</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Calcidius" id="auth57" /></td>
+        <td><label for="auth57">Calcidius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Censorinus" id="auth58" /></td>
+        <td><label for="auth58">Censorinus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Christiaan Huygens" id="auth59" /></td>
+        <td><label for="auth59">Christiaan Huygens</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Christianus Sadze" id="auth60" /></td>
+        <td><label for="auth60">Christianus Sadze</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Christianus Sadze de Flandria" id="auth61" /></td>
+        <td><label for="auth61">Christianus Sadze de Flandria</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Claude Martin" id="auth62" /></td>
+        <td><label for="auth62">Claude Martin</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Claudius Le Vol" id="auth63" /></td>
+        <td><label for="auth63">Claudius Le Vol</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Conradus de Zabernia" id="auth64" /></td>
+        <td><label for="auth64">Conradus de Zabernia</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Conradus Noricus" id="auth65" /></td>
+        <td><label for="auth65">Conradus Noricus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Conrad von Zabern" id="auth66" /></td>
+        <td><label for="auth66">Conrad von Zabern</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Dietker*" id="auth67" /></td>
+        <td><label for="auth67">Dietker*</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Dietrich Gresemund" id="auth68" /></td>
+        <td><label for="auth68">Dietrich Gresemund</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Dietricus" id="auth69" /></td>
+        <td><label for="auth69">Dietricus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Dionysius Lewis de Ryckel" id="auth70" /></td>
+        <td><label for="auth70">Dionysius Lewis de Ryckel</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Dominicus Gundissalinus" id="auth71" /></td>
+        <td><label for="auth71">Dominicus Gundissalinus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Eberhardus Frisingensis" id="auth72" /></td>
+        <td><label for="auth72">Eberhardus Frisingensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Egidius Carlerius" id="auth73" /></td>
+        <td><label for="auth73">Egidius Carlerius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Egidius Carlierius*" id="auth74" /></td>
+        <td><label for="auth74">Egidius Carlierius*</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Elias Salomo" id="auth75" /></td>
+        <td><label for="auth75">Elias Salomo</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Engelbertus Admontensis" id="auth76" /></td>
+        <td><label for="auth76">Engelbertus Admontensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Erasmus Heritius" id="auth77" /></td>
+        <td><label for="auth77">Erasmus Heritius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Erasmus Horicius" id="auth78" /></td>
+        <td><label for="auth78">Erasmus Horicius</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Eucharius Hofman" id="auth79" /></td>
+        <td><label for="auth79">Eucharius Hofman</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Fabius Planciades Fulgentius" id="auth80" /></td>
+        <td><label for="auth80">Fabius Planciades Fulgentius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Favonius Eulogius" id="auth81" /></td>
+        <td><label for="auth81">Favonius Eulogius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Flaccus Alcuinus" id="auth82" /></td>
+        <td><label for="auth82">Flaccus Alcuinus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Flavius Magnus Aurelius Cassiodorus" id="auth83" /></td>
+        <td><label for="auth83">Flavius Magnus Aurelius Cassiodorus</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Francesco Bianchini" id="auth84" /></td>
+        <td><label for="auth84">Francesco Bianchini</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Franchino Gaffurio" id="auth85" /></td>
+        <td><label for="auth85">Franchino Gaffurio</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Franchinus Gafurius" id="auth86" /></td>
+        <td><label for="auth86">Franchinus Gafurius</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Franciscus Salinas" id="auth87" /></td>
+        <td><label for="auth87">Franciscus Salinas</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Franco" id="auth88" /></td>
+        <td><label for="auth88">Franco</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Franco de Colonia" id="auth89" /></td>
+        <td><label for="auth89">Franco de Colonia</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Franco [Ps.]" id="auth90" /></td>
+        <td><label for="auth90">Franco [Ps.]</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Fredericus Beurhusius" id="auth91" /></td>
+        <td><label for="auth91">Fredericus Beurhusius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Frutolfus" id="auth92" /></td>
+        <td><label for="auth92">Frutolfus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Gallus Dressler" id="auth93" /></td>
+        <td><label for="auth93">Gallus Dressler</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Gaspar Stoquerus" id="auth94" /></td>
+        <td><label for="auth94">Gaspar Stoquerus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Georgius Anselmi" id="auth95" /></td>
+        <td><label for="auth95">Georgius Anselmi</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Georgius Anselmus" id="auth96" /></td>
+        <td><label for="auth96">Georgius Anselmus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Georg Rhau" id="auth97" /></td>
+        <td><label for="auth97">Georg Rhau</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Gerlandus" id="auth98" /></td>
+        <td><label for="auth98">Gerlandus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Giovanni Battista Doni" id="auth99" /></td>
+        <td><label for="auth99">Giovanni Battista Doni</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Girolamo Mei" id="auth100" /></td>
+        <td><label for="auth100">Girolamo Mei</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Gobelinus Person" id="auth101" /></td>
+        <td><label for="auth101">Gobelinus Person</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Goscalcus" id="auth102" /></td>
+        <td><label for="auth102">Goscalcus</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Gregor Reisch" id="auth103" /></td>
+        <td><label for="auth103">Gregor Reisch</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Guglielmo Roffredi" id="auth104" /></td>
+        <td><label for="auth104">Guglielmo Roffredi</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Gui de Chalis" id="auth105" /></td>
+        <td><label for="auth105">Gui de Chalis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Guido Aretinus" id="auth106" /></td>
+        <td><label for="auth106">Guido Aretinus</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Guido Augensis" id="auth107" /></td>
+        <td><label for="auth107">Guido Augensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Guido d’Arezzo" id="auth108" /></td>
+        <td><label for="auth108">Guido d’Arezzo</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Guido d’Arezzo [Ps.]" id="auth109" /></td>
+        <td><label for="auth109">Guido d’Arezzo [Ps.]</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Guido de sancto Dionysio" id="auth110" /></td>
+        <td><label for="auth110">Guido de sancto Dionysio</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Guido de Sancto Dionysio" id="auth111" /></td>
+        <td><label for="auth111">Guido de Sancto Dionysio</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Guido frater" id="auth112" /></td>
+        <td><label for="auth112">Guido frater</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Guido Frater" id="auth113" /></td>
+        <td><label for="auth113">Guido Frater</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Guidonis Aretini" id="auth114" /></td>
+        <td><label for="auth114">Guidonis Aretini</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Guilielmus Dufay" id="auth115" /></td>
+        <td><label for="auth115">Guilielmus Dufay</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Guilielmus monachus" id="auth116" /></td>
+        <td><label for="auth116">Guilielmus monachus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Guillaume Dufay" id="auth117" /></td>
+        <td><label for="auth117">Guillaume Dufay</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Guillaume Guerson" id="auth118" /></td>
+        <td><label for="auth118">Guillaume Guerson</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Guillermus de Podio" id="auth119" /></td>
+        <td><label for="auth119">Guillermus de Podio</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Heinrich Eger de Kalkar" id="auth120" /></td>
+        <td><label for="auth120">Heinrich Eger de Kalkar</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Heinrich Eger von Kalkar" id="auth121" /></td>
+        <td><label for="auth121">Heinrich Eger von Kalkar</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Heinrich Faber" id="auth122" /></td>
+        <td><label for="auth122">Heinrich Faber</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Heinrich Saess" id="auth123" /></td>
+        <td><label for="auth123">Heinrich Saess</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Heinricus Augustensis" id="auth124" /></td>
+        <td><label for="auth124">Heinricus Augustensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Henricus de Zeelandia" id="auth125" /></td>
+        <td><label for="auth125">Henricus de Zeelandia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Henricus de Zelandia" id="auth126" /></td>
+        <td><label for="auth126">Henricus de Zelandia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Henricus Glareanus" id="auth127" /></td>
+        <td><label for="auth127">Henricus Glareanus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Henricus Helene" id="auth128" /></td>
+        <td><label for="auth128">Henricus Helene</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Herbenus Traiectensis" id="auth129" /></td>
+        <td><label for="auth129">Herbenus Traiectensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Hermann Finck" id="auth130" /></td>
+        <td><label for="auth130">Hermann Finck</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Hermannus Contractus" id="auth131" /></td>
+        <td><label for="auth131">Hermannus Contractus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Hieronymus Cardanus" id="auth132" /></td>
+        <td><label for="auth132">Hieronymus Cardanus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Hieronymus de Moravia" id="auth133" /></td>
+        <td><label for="auth133">Hieronymus de Moravia</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Hieronymus [Ps.]" id="auth134" /></td>
+        <td><label for="auth134">Hieronymus [Ps.]</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Hucbald" id="auth135" /></td>
+        <td><label for="auth135">Hucbald</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Hucbaldus Elnonensis" id="auth136" /></td>
+        <td><label for="auth136">Hucbaldus Elnonensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iacobus Leodiensis" id="auth137" /></td>
+        <td><label for="auth137">Iacobus Leodiensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iacobus Theatinus" id="auth138" /></td>
+        <td><label for="auth138">Iacobus Theatinus</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Ieronimus de Moravia" id="auth139" /></td>
+        <td><label for="auth139">Ieronimus de Moravia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Ioannes Keck" id="auth140" /></td>
+        <td><label for="auth140">Ioannes Keck</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Aegidius de Zamora" id="auth141" /></td>
+        <td><label for="auth141">Iohannes Aegidius de Zamora</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Aegidius Zamorensis" id="auth142" /></td>
+        <td><label for="auth142">Iohannes Aegidius Zamorensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Boen" id="auth143" /></td>
+        <td><label for="auth143">Iohannes Boen</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Ciconia" id="auth144" /></td>
+        <td><label for="auth144">Iohannes Ciconia</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes de Garlandia" id="auth145" /></td>
+        <td><label for="auth145">Iohannes de Garlandia</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes de Grocheio" id="auth146" /></td>
+        <td><label for="auth146">Iohannes de Grocheio</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes de Muris" id="auth147" /></td>
+        <td><label for="auth147">Iohannes de Muris</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes de Olomons" id="auth148" /></td>
+        <td><label for="auth148">Iohannes de Olomons</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes de Velle" id="auth149" /></td>
+        <td><label for="auth149">Iohannes de Velle</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes dictus Balloce" id="auth150" /></td>
+        <td><label for="auth150">Iohannes dictus Balloce</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes dictus Cotto sive Affligemensis" id="auth151" /></td>
+        <td><label for="auth151">Iohannes dictus Cotto sive Affligemensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Hanboys" id="auth152" /></td>
+        <td><label for="auth152">Iohannes Hanboys</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Hothby" id="auth153" /></td>
+        <td><label for="auth153">Iohannes Hothby</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Keck" id="auth154" /></td>
+        <td><label for="auth154">Iohannes Keck</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Legrense" id="auth155" /></td>
+        <td><label for="auth155">Iohannes Legrense</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Spangenberg" id="auth156" /></td>
+        <td><label for="auth156">Iohannes Spangenberg</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Tinctoris" id="auth157" /></td>
+        <td><label for="auth157">Iohannes Tinctoris</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Torkesey" id="auth158" /></td>
+        <td><label for="auth158">Iohannes Torkesey</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Iohannes Vetulus de Anagnia" id="auth159" /></td>
+        <td><label for="auth159">Iohannes Vetulus de Anagnia</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Isidorus Hispalensis" id="auth160" /></td>
+        <td><label for="auth160">Isidorus Hispalensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Jacobus Faber Stapulensis" id="auth161" /></td>
+        <td><label for="auth161">Jacobus Faber Stapulensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Jacobus Leodiensis" id="auth162" /></td>
+        <td><label for="auth162">Jacobus Leodiensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Jacobus Theatinus" id="auth163" /></td>
+        <td><label for="auth163">Jacobus Theatinus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Jerzy Liban" id="auth164" /></td>
+        <td><label for="auth164">Jerzy Liban</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Joachim Burmeister" id="auth165" /></td>
+        <td><label for="auth165">Joachim Burmeister</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Joachimus Wolterstorpius" id="auth166" /></td>
+        <td><label for="auth166">Joachimus Wolterstorpius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Joannes Presbyter" id="auth167" /></td>
+        <td><label for="auth167">Joannes Presbyter</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Affligemensis" id="auth168" /></td>
+        <td><label for="auth168">Johannes Affligemensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Boen" id="auth169" /></td>
+        <td><label for="auth169">Johannes Boen</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Ciconia" id="auth170" /></td>
+        <td><label for="auth170">Johannes Ciconia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Cochlaeus" id="auth171" /></td>
+        <td><label for="auth171">Johannes Cochlaeus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes de Garlandia" id="auth172" /></td>
+        <td><label for="auth172">Johannes de Garlandia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes de Gerson" id="auth173" /></td>
+        <td><label for="auth173">Johannes de Gerson</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes de Grocheo" id="auth174" /></td>
+        <td><label for="auth174">Johannes de Grocheo</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes de Muris" id="auth175" /></td>
+        <td><label for="auth175">Johannes de Muris</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes de Olomons" id="auth176" /></td>
+        <td><label for="auth176">Johannes de Olomons</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes de Szydlow" id="auth177" /></td>
+        <td><label for="auth177">Johannes de Szydlow</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes dictus Balloce" id="auth178" /></td>
+        <td><label for="auth178">Johannes dictus Balloce</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes dictus Ballox" id="auth179" /></td>
+        <td><label for="auth179">Johannes dictus Ballox</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Frosch" id="auth180" /></td>
+        <td><label for="auth180">Johannes Frosch</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Gallicus" id="auth181" /></td>
+        <td><label for="auth181">Johannes Gallicus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Gallicus dictus Carthusiensis seu de Mantua" id="auth182" /></td>
+        <td><label for="auth182">Johannes Gallicus dictus Carthusiensis seu de Mantua</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Hanboys" id="auth183" /></td>
+        <td><label for="auth183">Johannes Hanboys</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Hothby" id="auth184" /></td>
+        <td><label for="auth184">Johannes Hothby</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Lippius" id="auth185" /></td>
+        <td><label for="auth185">Johannes Lippius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Oridryus" id="auth186" /></td>
+        <td><label for="auth186">Johannes Oridryus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Tinctoris" id="auth187" /></td>
+        <td><label for="auth187">Johannes Tinctoris</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Torkesey" id="auth188" /></td>
+        <td><label for="auth188">Johannes Torkesey</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Valendrinus" id="auth189" /></td>
+        <td><label for="auth189">Johannes Valendrinus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Verulus de Anagnia" id="auth190" /></td>
+        <td><label for="auth190">Johannes Verulus de Anagnia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Vogelsang" id="auth191" /></td>
+        <td><label for="auth191">Johannes Vogelsang</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Johannes Wylde" id="auth192" /></td>
+        <td><label for="auth192">Johannes Wylde</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="John Case" id="auth193" /></td>
+        <td><label for="auth193">John Case</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="John Dygon" id="auth194" /></td>
+        <td><label for="auth194">John Dygon</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="John Wylde" id="auth195" /></td>
+        <td><label for="auth195">John Wylde</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Juvenal Ancina Fossaniensis" id="auth196" /></td>
+        <td><label for="auth196">Juvenal Ancina Fossaniensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="János Czerey" id="auth197" /></td>
+        <td><label for="auth197">János Czerey</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Ladislaus de Zalka" id="auth198" /></td>
+        <td><label for="auth198">Ladislaus de Zalka</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Lambertus (Quidam Aristoteles)" id="auth199" /></td>
+        <td><label for="auth199">Lambertus (Quidam Aristoteles)</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Lampadius" id="auth200" /></td>
+        <td><label for="auth200">Lampadius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Luca Lossio" id="auth201" /></td>
+        <td><label for="auth201">Luca Lossio</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Ludovicus Folianus" id="auth202" /></td>
+        <td><label for="auth202">Ludovicus Folianus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Ludovicus Sanctus" id="auth203" /></td>
+        <td><label for="auth203">Ludovicus Sanctus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ludovicus Sanctus (Heyliger?) de Beeringhen" id="auth204" /></td>
+        <td><label for="auth204">Ludovicus Sanctus (Heyliger?) de Beeringhen</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Macrobius Ambrosius Theodosius" id="auth205" /></td>
+        <td><label for="auth205">Macrobius Ambrosius Theodosius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Magister de Garlandia" id="auth206" /></td>
+        <td><label for="auth206">Magister de Garlandia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Magister Szydlovita" id="auth207" /></td>
+        <td><label for="auth207">Magister Szydlovita</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Marchettus de Padua" id="auth208" /></td>
+        <td><label for="auth208">Marchettus de Padua</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Marchetus de Padua" id="auth209" /></td>
+        <td><label for="auth209">Marchetus de Padua</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Marchetus de Padua, Ciconia, and Anonymous" id="auth210" /></td>
+        <td><label for="auth210">Marchetus de Padua, Ciconia, and Anonymous</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Marcin Kromer" id="auth211" /></td>
+        <td><label for="auth211">Marcin Kromer</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Marcus Tullius Cicero" id="auth212" /></td>
+        <td><label for="auth212">Marcus Tullius Cicero</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Martianus Capella" id="auth213" /></td>
+        <td><label for="auth213">Martianus Capella</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Martinus Agricola" id="auth214" /></td>
+        <td><label for="auth214">Martinus Agricola</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Melchior Schanppecher" id="auth215" /></td>
+        <td><label for="auth215">Melchior Schanppecher</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Metrophanes Critopulus, hieromonachus" id="auth216" /></td>
+        <td><label for="auth216">Metrophanes Critopulus, hieromonachus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Michael Keinspeck" id="auth217" /></td>
+        <td><label for="auth217">Michael Keinspeck</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Monachus Carthusiensis" id="auth218" /></td>
+        <td><label for="auth218">Monachus Carthusiensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicasius Weyts" id="auth219" /></td>
+        <td><label for="auth219">Nicasius Weyts</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicasius Weyts, Carmelite" id="auth220" /></td>
+        <td><label for="auth220">Nicasius Weyts, Carmelite</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicetius, episcopus" id="auth221" /></td>
+        <td><label for="auth221">Nicetius, episcopus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicolaus Burtius" id="auth222" /></td>
+        <td><label for="auth222">Nicolaus Burtius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicolaus Burtius Parmensis" id="auth223" /></td>
+        <td><label for="auth223">Nicolaus Burtius Parmensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicolaus Capuanus" id="auth224" /></td>
+        <td><label for="auth224">Nicolaus Capuanus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicolaus de Capua" id="auth225" /></td>
+        <td><label for="auth225">Nicolaus de Capua</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicolaus de Cosil" id="auth226" /></td>
+        <td><label for="auth226">Nicolaus de Cosil</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicolaus de Cosil*" id="auth227" /></td>
+        <td><label for="auth227">Nicolaus de Cosil*</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicolaus de Senis" id="auth228" /></td>
+        <td><label for="auth228">Nicolaus de Senis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicolaus Listenius" id="auth229" /></td>
+        <td><label for="auth229">Nicolaus Listenius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Nicolaus Wollick" id="auth230" /></td>
+        <td><label for="auth230">Nicolaus Wollick</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Notker" id="auth231" /></td>
+        <td><label for="auth231">Notker</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Notker Balbulus" id="auth232" /></td>
+        <td><label for="auth232">Notker Balbulus</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Odalschalchus" id="auth233" /></td>
+        <td><label for="auth233">Odalschalchus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Odo" id="auth234" /></td>
+        <td><label for="auth234">Odo</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Odo Aretinus" id="auth235" /></td>
+        <td><label for="auth235">Odo Aretinus</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Odorannus de Sens" id="auth236" /></td>
+        <td><label for="auth236">Odorannus de Sens</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Odorannus Senonensis" id="auth237" /></td>
+        <td><label for="auth237">Odorannus Senonensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Oliva" id="auth238" /></td>
+        <td><label for="auth238">Oliva</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Oliva de Ripoll" id="auth239" /></td>
+        <td><label for="auth239">Oliva de Ripoll</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Oronce Finé" id="auth240" /></td>
+        <td><label for="auth240">Oronce Finé</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Osbernus Cantuariensis (?)" id="auth241" /></td>
+        <td><label for="auth241">Osbernus Cantuariensis (?)</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Ottmar Luscinius" id="auth242" /></td>
+        <td><label for="auth242">Ottmar Luscinius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Pambo, Abbas" id="auth243" /></td>
+        <td><label for="auth243">Pambo, Abbas</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Paulus de Florentia" id="auth244" /></td>
+        <td><label for="auth244">Paulus de Florentia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Paulus Paulirinus" id="auth245" /></td>
+        <td><label for="auth245">Paulus Paulirinus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Perseus and Petrus" id="auth246" /></td>
+        <td><label for="auth246">Perseus and Petrus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Petrus Aaron" id="auth247" /></td>
+        <td><label for="auth247">Petrus Aaron</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Petrus Capuanus de Amalfia" id="auth248" /></td>
+        <td><label for="auth248">Petrus Capuanus de Amalfia</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Petrus de Alvernia" id="auth249" /></td>
+        <td><label for="auth249">Petrus de Alvernia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Petrus de Amalfia" id="auth250" /></td>
+        <td><label for="auth250">Petrus de Amalfia</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Petrus de Cruce Ambianensis" id="auth251" /></td>
+        <td><label for="auth251">Petrus de Cruce Ambianensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Petrus de Cruce Ambianensi[s]" id="auth252" /></td>
+        <td><label for="auth252">Petrus de Cruce Ambianensi[s]</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Petrus de Sancto Dionysio" id="auth253" /></td>
+        <td><label for="auth253">Petrus de Sancto Dionysio</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Petrus dictus Palma ociosa" id="auth254" /></td>
+        <td><label for="auth254">Petrus dictus Palma ociosa</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Petrus Picardus" id="auth255" /></td>
+        <td><label for="auth255">Petrus Picardus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Petrus Talhanderius" id="auth256" /></td>
+        <td><label for="auth256">Petrus Talhanderius</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Petrus Tallanderius" id="auth257" /></td>
+        <td><label for="auth257">Petrus Tallanderius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Philipoctus Andreas" id="auth258" /></td>
+        <td><label for="auth258">Philipoctus Andreas</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Philippe de Vitry" id="auth259" /></td>
+        <td><label for="auth259">Philippe de Vitry</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Philippus de Caserta" id="auth260" /></td>
+        <td><label for="auth260">Philippus de Caserta</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Philippus de Vitriaco" id="auth261" /></td>
+        <td><label for="auth261">Philippus de Vitriaco</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Phillipotus Andrea" id="auth262" /></td>
+        <td><label for="auth262">Phillipotus Andrea</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Prosdocimo de’ Beldomandi" id="auth263" /></td>
+        <td><label for="auth263">Prosdocimo de’ Beldomandi</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Prosdocimus de Beldemandis" id="auth264" /></td>
+        <td><label for="auth264">Prosdocimus de Beldemandis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Bernardus Clarevallensis" id="auth265" /></td>
+        <td><label for="auth265">Ps.-Bernardus Clarevallensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Berno Augiensis" id="auth266" /></td>
+        <td><label for="auth266">Ps.-Berno Augiensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Censorini" id="auth267" /></td>
+        <td><label for="auth267">Ps.-Censorini</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Dietricus" id="auth268" /></td>
+        <td><label for="auth268">Ps.-Dietricus</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Franco de Colonia" id="auth269" /></td>
+        <td><label for="auth269">Ps.-Franco de Colonia</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Guglielmus Roffredi" id="auth270" /></td>
+        <td><label for="auth270">Ps.-Guglielmus Roffredi</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Guido Aretinus" id="auth271" /></td>
+        <td><label for="auth271">Ps.-Guido Aretinus</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Hieronymus" id="auth272" /></td>
+        <td><label for="auth272">Ps.-Hieronymus</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Iohanne de Muris" id="auth273" /></td>
+        <td><label for="auth273">Ps.-Iohanne de Muris</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Iohannes de Muris" id="auth274" /></td>
+        <td><label for="auth274">Ps.-Iohannes de Muris</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-John Wylde" id="auth275" /></td>
+        <td><label for="auth275">Ps.-John Wylde</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Odo" id="auth276" /></td>
+        <td><label for="auth276">Ps.-Odo</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Osbernus Cantuariensis" id="auth277" /></td>
+        <td><label for="auth277">Ps.-Osbernus Cantuariensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Petrus de Cruce" id="auth278" /></td>
+        <td><label for="auth278">Ps.-Petrus de Cruce</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Philipoctus de Caserta" id="auth279" /></td>
+        <td><label for="auth279">Ps.-Philipoctus de Caserta</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Philippo de Vitriaco" id="auth280" /></td>
+        <td><label for="auth280">Ps.-Philippo de Vitriaco</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Philippus de Vitriaco" id="auth281" /></td>
+        <td><label for="auth281">Ps.-Philippus de Vitriaco</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Simon Tunstede" id="auth282" /></td>
+        <td><label for="auth282">Ps.-Simon Tunstede</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Theodonus de Caprio" id="auth283" /></td>
+        <td><label for="auth283">Ps.-Theodonus de Caprio</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps.-Thomas Aquinas" id="auth284" /></td>
+        <td><label for="auth284">Ps.-Thomas Aquinas</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ps. Thomas Aquinas*" id="auth285" /></td>
+        <td><label for="auth285">Ps. Thomas Aquinas*</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Rabanus Maurus" id="auth286" /></td>
+        <td><label for="auth286">Rabanus Maurus</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Raphael Brandolinus Lippus, junior" id="auth287" /></td>
+        <td><label for="auth287">Raphael Brandolinus Lippus, junior</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Regino Prumiensis" id="auth288" /></td>
+        <td><label for="auth288">Regino Prumiensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Remigius Altisiodorensis" id="auth289" /></td>
+        <td><label for="auth289">Remigius Altisiodorensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="René Descartes" id="auth290" /></td>
+        <td><label for="auth290">René Descartes</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Robert Kilwardby" id="auth291" /></td>
+        <td><label for="auth291">Robert Kilwardby</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Robertus de Handlo" id="auth292" /></td>
+        <td><label for="auth292">Robertus de Handlo</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Rudolf of St. Trond" id="auth293" /></td>
+        <td><label for="auth293">Rudolf of St. Trond</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Rutgerus Sycamber de Venray" id="auth294" /></td>
+        <td><label for="auth294">Rutgerus Sycamber de Venray</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Sebaldus Heyden" id="auth295" /></td>
+        <td><label for="auth295">Sebaldus Heyden</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Sebastianus de Felstin" id="auth296" /></td>
+        <td><label for="auth296">Sebastianus de Felstin</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Seth Calvisius" id="auth297" /></td>
+        <td><label for="auth297">Seth Calvisius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Stefan Monetarius" id="auth298" /></td>
+        <td><label for="auth298">Stefan Monetarius</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Stephano Vanneo" id="auth299" /></td>
+        <td><label for="auth299">Stephano Vanneo</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Theinredus Doverensis" id="auth300" /></td>
+        <td><label for="auth300">Theinredus Doverensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Theodonus de Caprio" id="auth301" /></td>
+        <td><label for="auth301">Theodonus de Caprio</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Theodoricus de Campo" id="auth302" /></td>
+        <td><label for="auth302">Theodoricus de Campo</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Theogerus Metensis" id="auth303" /></td>
+        <td><label for="auth303">Theogerus Metensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Theogerus Mettensis" id="auth304" /></td>
+        <td><label for="auth304">Theogerus Mettensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Thomas Aquinas [Ps.]" id="auth305" /></td>
+        <td><label for="auth305">Thomas Aquinas [Ps.]</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Thomas Walsingham" id="auth306" /></td>
+        <td><label for="auth306">Thomas Walsingham</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Udalscalcus Augustensis" id="auth307" /></td>
+        <td><label for="auth307">Udalscalcus Augustensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Ugolino Urbevetanis" id="auth308" /></td>
+        <td><label for="auth308">Ugolino Urbevetanis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Ugolinus Urbevetanus" id="auth309" /></td>
+        <td><label for="auth309">Ugolinus Urbevetanus</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Vincent of Beauvais" id="auth310" /></td>
+        <td><label for="auth310">Vincent of Beauvais</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Walter Odington" id="auth311" /></td>
+        <td><label for="auth311">Walter Odington</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Wenceslaus de Prachatitz" id="auth312" /></td>
+        <td><label for="auth312">Wenceslaus de Prachatitz</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Willehelmus Hirsaugensis" id="auth313" /></td>
+        <td><label for="auth313">Willehelmus Hirsaugensis</label><span class="tml">TML</span></td>
+        </tr>
+            <tr class="lml-row">
+        <td><input type="checkbox" name="authors[]" value="Willehelmus Hirsaugiensis" id="auth314" /></td>
+        <td><label for="auth314">Willehelmus Hirsaugiensis</label><span class="lml">LmL</span></td>
+        </tr>
+            <tr class="tml-row">
+        <td><input type="checkbox" name="authors[]" value="Willelmus" id="auth315" /></td>
+        <td><label for="auth315">Willelmus</label><span class="tml">TML</span></td>
+        </tr>
+        </table>
+</form>
+<div id='floatingBox'>
+  <div class="floating-toolbox">
+    <table>
+      <tr>
+        <th>Actions</th>
+      </tr>
+      <tr>
+        <td>
+          <form action="https://chmtl.indiana.edu/tml/browse/" method="get" class="filter-form" id="lmlAuthorDisplayForm">
+            <input type="checkbox" name="lmlDisplay" />
+              <label for="lmlDisplay">Include <em>LmL</em> authors&nbsp;<a class="modal-tooltip" modal="lml-tip"><i class="fa fa-info-circle" aria-hidden="true">
+                <span class="sr-only">Click for more information</span>
+              </i></a></label>
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td class="label">authors selected&nbsp;<a class="modal-tooltip" modal="auth-select-tip"><i class="fa fa-info-circle" aria-hidden="true">
+          <span class="sr-only">Click for more information</span>
+        </i></a></td>
+      </tr>
+      <tr>
+        <td>
+          <ul id='chosenAuths'></ul>
+        </td>
+      </tr>
+    </table>
+    <p id='submitInPanel'><!--<a href='#' id='submitBtnPanel'>Submit</a><br />--><button id="auth-submit" class="pure-button">Submit</button></p>
+  </div>
+  <p id="backToTop"><a href='authors.html#top'>Back to top</a></p>
+</div>
+<div style="clear: both"></div>
+<div id="new-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="new-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+     <p>This feature is somewhat experimental, while a standardized author index is in preparation. About the relationship between TML texts and LmL bibliographical sigla see the <a href ="../concordances/lml.html" target="_blank">LmL Concordances</a> page.</p>
+   </div>
+ </div>
+ </div>
+
+<div id="lml-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="lml-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+   </br>
+     <p>Check this to include the authorities of the <a class="external" href="http://www.lml.badw-muenchen.de/" target="_blank"><em>Lexicon musicum Latinum</em> (LmL)</a> in the list.</p>
+   </div>
+ </div>
+ </div>
+
+ <div id="auth-select-tip" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <a class="close-modal" modal="auth-select-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+      <br />
+      <p>Add/remove names and hit &ldquo;Submit&rdquo; to show all texts associated with the selected authors.</p>
+      <p><strong>N.B.</strong>: if you are adding names from both the TML and <em>LmL</em> sets, expect some duplicate entries in the result page. The pairing of the TML texts/attributions with the LmL authorities is a tentative feature while a full index is in preparation. Read more in the <a href ="../concordances/lml.html" target="_blank">LmL Concordances</a> page.
+    </div>
+  </div>
+  </div>
+<br /><br />
+  <div id="cc-copy-statement">
+   <table><tr><td style="text-align: center; vertical-align: top;">
+   Except where otherwise noted, this website is subject to a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>
+<br />
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><em>Thesaurus Musicarum Latinarum</em></span> -
+<a xmlns:cc="http://creativecommons.org/ns#" style="color:black" href="https://chmtl.indiana.edu/tml" property="cc:attributionName" rel="cc:attributionURL">https://chmtl.indiana.edu/tml</a> - 2022</td>
+     <td style="text-align: center; vertical-align: middle;">
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Attribution License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+</td></tr></table>
+  </div>
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+  <ul id="footerNav">
+    <li><a href="http://www.chmtl.indiana.edu/resarch/e-projects.shtml">CHMTL Projects:</a></li>
+    <li class="active">TML</li>
+    <li class='pipe'><a href="https://chmtl.indiana.edu/smi/">SMI</a></li>
+    <li class='pipe'><a href="https://chmtl.indiana.edu/tme/">TME</a></li>
+    <li class='pipe'><a href="https://chmtl.indiana.edu/tfm/">TFM</a></li>
+    <li class='pipe'><a href="https://chmtl.indiana.edu/borrowing/">MBR</a></li>
+  </ul>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
