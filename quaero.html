@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>Search TML</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <script type= 'text/javascript' src='_assets/js/search.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="quaero.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+
+  <div id="container" class="full-width">
+    <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="about/people.html">People</a></li>
+                <li class="pushy-link"><a href="about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="browse/authors.html">by author</a></li>
+            <li class="pushy-link"><a href="browse/contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="browse/incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="browse/sources.html">by source</a></li>
+            <li class="pushy-link"><a href="browse/titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="9th-11th/index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="14th/index.html">14th</a></li>
+                     <li class="pushy-link"><a href="15th/index.html">15th</a></li>
+                     <li class="pushy-link"><a href="16th/index.html">16th</a></li>
+                     <li class="pushy-link"><a href="17th/index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+  <div id="content">
+      <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+
+<h1>Search the TML</h1>
+
+<p>The search is mainly used to look for a specific text or phrase or  to discover all the instances of a particular term across the corpus. Note that the TML reproduces texts exactly as in the sources, so it is always advisable to try alternative spellings.</p> 	
+
+<p><span class="guidelines">Through the &ldquo;Search options&rdquo; panel, you can select any number of centuries in which to search, or limit your search to digitized editions or manuscript transciptions. You can choose to have matched lines of the text shown by default in the search results (otherwise they are hidden until you click &ldquo;See matches&rdquo; to show them).</span></p>
+
+<p>&nbsp;</p>
+
+<form id="basicsearch" name="tmlsearch" method="POST" action="https://chmtl.indiana.edu/tml/perform_search">
+	<input type="hidden" name="searchtype" value="basicsearch"/>
+	<div>
+		<div class="floating-toolbox" style="margin-top: -21px;">
+			<table id="centTable">
+				<th colspan="2">Search options</th>
+				<tr>
+					<td colspan="2" class="label">centuries</td>
+				</tr>
+				<tr>
+					<td><input type="checkbox" name="century[]" value="all" checked="checked" id="allCent"><label for="allCent">All</label><br />
+						<input type="checkbox" name="century[]" value="3rd-5th" class="cent" id="c1-35"><label for="c1-35">3rd–5th</label><br />
+						<input type="checkbox" name="century[]" value="6th-8th" class="cent" id="c1-68"><label for="c1-68">6th–8th</label><br />
+						<input type="checkbox" name="century[]" value="9th-11th" class="cent" id="c1-911"><label for="c1-911">9th–11th</label><br />
+						<input type="checkbox" name="century[]" value="12th" class="cent" id="c1-12"><label for="c1-12">12th</label>
+					</td>
+					<td>
+						<input type="checkbox" name="century[]" value="13th" class="cent" id="c1-13"><label for="c1-13">13th</label><br />
+						<input type="checkbox" name="century[]" value="14th" class="cent" id="c1-14"><label for="c1-14">14th</label><br/>
+						<input type="checkbox" name="century[]" value="15th" class="cent" id="c1-15"><label for="c1-15">15th</label><br />
+						<input type="checkbox" name="century[]" value="16th" class="cent" id="c1-16"><label for="c1-16">16th</label><br />
+						<input type="checkbox" name="century[]" value="17th" class="cent" id="c1-17"><label for="c1-17">17th</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="label">texts</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="radio" checked="checked" name="docType" value="all" id="all_radio"/>
+						<label for="all_radio">All</label><br />
+						<input type="radio" name="docType" value="text" id="text_radio"/>
+						<label for="text_radio">Digitized editions</label><br />
+						<input type="radio" name="docType" value="ms" id="ms_radio"/>
+						<label for="ms_radio">TML MS transcriptions</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="label">lines with a match</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="checkbox" name="expand" value="show" id="showMatchedCheck"/>
+						<label for="showMatchedCheck">show by default</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input type="text" name="context" size="3" value="1" id="linesOfContext"/>
+						<label for="linesOfContext">line(s) of context</label>
+					</td>
+				</tr>
+				
+			</table>
+		</div>
+		<!--<textarea name="searchterms" rows="2" cols="80" placeholder="Enter search terms..."></textarea><br />-->
+		<div id="searchInput">
+			<input type="text" name="searchterms" placeholder="Enter search terms..." />
+			<br />
+			<input id="searchSubmit" type="Submit" value="Submit">
+		</div>
+	</div>
+</form>
+
+<h4 style="margin-top:40px">Rules for searching</h4>
+<ul id="search-hints-list">
+	<li>By default, this utility finds indexed words that match <i>or end with</i> the searched string.</li> 
+	<li>The Boolean operators AND/OR can be used, in all capital letters. A space between two terms is interpreted as the Boolean operator AND. </li>
+	<li>The addition of the asterisk (*) at the end of a string has the effect of searching for words that <i>begin with</i> that string (not necessarily a full word) followed by zero or more alphanumerical characters. It is mostly used for searching inflected forms, or any word with a given root. Note that the asterisk tells the utility to add to the basic results all words with the same root <i>of the exact string</i>; in other words, the utility does not find words with extra characters on both sides of the searched string.</li>
+	<li>Double quotes can be used to find a phrase. Include a space at the beginning to restrict the search to the exact first word of the phrase. Double quotes and an initial space is also the recommended method to search for an exact word.</li>
+	<li>Asterisks and double quotes can be combined.</li>
+	<li>Diacriticals are not accepted in the search box, but the results will include words with any diacritical variant. That is, a word in the text containing an accented letter is interpreted as the same as the searched one without the accent.</li>
+	<li>This search utility finds words and phrases in the text of the treatises, not in the metadata.</li>
+	
+	<!--<li>Note also that the search is sensitive to punctuation; that is, false negatives are expected when punctuation immediately follows a searched word (or when punctuation is found between words, in phrase search). Searching for roots with an asterisk is therefore recommended.</li>-->
+</ul>
+<div style="clear: both;"></div>
+
+<h4>Examples</h4>
+
+<div id="tml-search-hints">
+    
+	
+	<table>
+		<tr>
+			<th>Searched string</th>
+			<th>Finds</th>
+		</tr>
+		<tr>
+			<td class="mono">cantus</td>
+			<td>All texts that contain either &lsquo;cantus&rsquo; or words that end with &lsquo;cantus&rsquo; (e.g., &lsquo;discantus&rsquo;).</td>
+		</tr>
+		<tr>
+			<td class="mono">cantus natura</td>
+			<td>All documents that contain <u>both</u> &lsquo;cantus&rsquo; (or &lsquo;discantus&rsquo; etc.) <u>and</u> &lsquo;natura&rsquo; (or &lsquo;signatura&rsquo; etc.) </td>
+		</tr>
+		<tr>
+			<td class="mono">cantores OR natura</td>
+			<td>All documents that contain <u>either</u> &lsquo;cantus&rsquo; <u>or</u> &lsquo;natura&rsquo; (or &lsquo;signatura&rsquo; etc.) but not necessarily both</td>
+		</tr>
+		<tr>
+			<td class="mono">"cantus qui"</td>
+			<td>All documents that contain the phrase &lsquo;cantus qui&rsquo; (or &lsquo;discantus antiqui&rsquo;)</td>
+		</tr>
+		<tr>
+			<td class="mono">"cantus&nbsp;figuratus" <br/>AND moderni</td>
+			<td>All documents that contain the exact phrase &lsquo;cantus figuratus&rsquo; and also the word &lsquo;moderni&rsquo;</td>
+		</tr>
+		<tr>
+			<td class="mono">tertia*</td>
+			<td>All documents that contain &lsquo;tertia&rsquo; or &lsquo;tertiam&rsquo; or &lsquo;tertiadecima&rsquo; or &lsquo;sesquitertia&rsquo; <i>but not</i> &lsquo;sesquitertiam&rsquo; (the latter word neither starts nor ends with &lsquo;tertia&rsquo; exactly)
+			</td>
+		</tr>
+		<tr>
+			<td class="mono" >cantus natura*</td>
+			<td>
+			    All documents that contain <u>both</u> &lsquo;cantus&rsquo; (or &lsquo;discantus&rsquo; etc.) <u>and</u> &lsquo;natura&rsquo; (or &lsquo;signatura&rsquo; or &lsquo;naturalis&rsquo; <i>but not</i> &lsquo;innaturalis,&rsquo; (the latter word neither starts nor ends with &lsquo;natura&rsquo; exactly)
+			</td>
+			<tr>
+				<td class="mono" >"ord* prop*"</td>
+				<td>
+					All documents that contain &lsquo;ordinem proportionum&rsquo; or &lsquo;ordinatio propter&rsquo; <u>not</u> &lsquo;subordinetur proportio&rsquo; (subordinetur neither starts nor ends with &lsquo;ord&rsquo; exactly).
+				</td>
+			</tr>
+<tr><td colspan=2><strong>N.B.</strong> In all searches with the asterisk, the search results page may also highlight &ldquo;fuzzy&rdquo; matches found in the documents, that is words that neither starts nor ends with the searched string exactly. This happens if a legitimate hit is found. Such &ldquo;courtesy&rdquo; highlighting does not mean that all texts with these words were found.</td></tr>			
+		</table>
+	</div>
+		<p>&nbsp;</p>
+
+	
+	<br /><br />
+  <div id="cc-copy-statement">
+   <table><tr><td style="text-align: center; vertical-align: top;">
+   Except where otherwise noted, this website is subject to a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>
+<br />
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><em>Thesaurus Musicarum Latinarum</em></span> -
+<a xmlns:cc="http://creativecommons.org/ns#" style="color:black" href="https://chmtl.indiana.edu/tml" property="cc:attributionName" rel="cc:attributionURL">https://chmtl.indiana.edu/tml</a> - 2022</td>
+     <td style="text-align: center; vertical-align: middle;">
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Attribution License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+</td></tr></table>
+  </div>
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+  <ul id="footerNav">
+    <li><a href="http://www.chmtl.indiana.edu/resarch/e-projects.shtml">CHMTL Projects:</a></li>
+    <li class="active">TML</li>
+    <li class='pipe'><a href="https://chmtl.indiana.edu/smi/">SMI</a></li>
+    <li class='pipe'><a href="https://chmtl.indiana.edu/tme/">TME</a></li>
+    <li class='pipe'><a href="https://chmtl.indiana.edu/tfm/">TFM</a></li>
+    <li class='pipe'><a href="https://chmtl.indiana.edu/borrowing/">MBR</a></li>
+  </ul>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
